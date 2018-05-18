@@ -1,1 +1,1 @@
-*Using RegEx for Linq
+Using RegEx for Linq
