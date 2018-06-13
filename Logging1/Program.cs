@@ -11,16 +11,19 @@ namespace Logging1
 	class Program
 	{
 
-		private readonly ILogger _logger;
+		public static ILogger Logger { get; set; } = new LoggerFactory().CreateLogger<Program>();
 
-		public Program() => _logger = new LoggerFactory()
-							//.AddConsole(LogLevel.Information)
-							//.AddDebug(LogLevel.Debug)
-							.CreateLogger<Program>();
+		public static void Initialize()
+		{
+			//Logger = new LoggerFactory()
+			//.AddConsole(LogLevel.Information)
+			//.AddDebug(LogLevel.Debug)
+			//.CreateLogger<Program>();
+		}
 
 		static void Main(string[] args)
 		{
-			_logger.LogInformation($"Retrieving samples from '{nameof(Main)}'");
+			Logger.LogInformation($"Retrieving samples from '{nameof(Main)}'");
 
 			Console.WriteLine();
 			Console.Write("Press any key...");
