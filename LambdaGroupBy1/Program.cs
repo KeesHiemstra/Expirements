@@ -47,9 +47,9 @@ namespace LambdaGroupBy1
 				Console.WriteLine($"{i.ShopItemName} {i.Count}");
 			}
 
-			var NewGrouped = Grouped
-				.Join(List, g => g.ShopItemName, l => l.ShopItemName,  ( g, l ))
-				;
+			//var NewGrouped = Grouped
+				//.Join(List, g => g.ShopItemName, l => l.ShopItemName,  ( g, l ))
+				//;
 
 
 			Console.WriteLine();
