@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Birthday", "Birthday\Birthd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decimal1", "Decimal1\Decimal1.csproj", "{BA95447F-1535-4A18-8386-28FAAF435D23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging2", "Logging2\Logging2.csproj", "{F7726506-5030-4C08-8338-B884138D0FFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{BA95447F-1535-4A18-8386-28FAAF435D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA95447F-1535-4A18-8386-28FAAF435D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA95447F-1535-4A18-8386-28FAAF435D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7726506-5030-4C08-8338-B884138D0FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7726506-5030-4C08-8338-B884138D0FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7726506-5030-4C08-8338-B884138D0FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7726506-5030-4C08-8338-B884138D0FFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
