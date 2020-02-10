@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging2", "Logging2\Loggin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime1", "DateTime1\DateTime1.csproj", "{B02057CB-5ECB-4D68-A771-CC73C63C460F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regex3", "RegEx3\Regex3.csproj", "{F49DD7FB-B5D1-4CAF-A981-645CD06CF1E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{B02057CB-5ECB-4D68-A771-CC73C63C460F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B02057CB-5ECB-4D68-A771-CC73C63C460F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B02057CB-5ECB-4D68-A771-CC73C63C460F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F49DD7FB-B5D1-4CAF-A981-645CD06CF1E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49DD7FB-B5D1-4CAF-A981-645CD06CF1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49DD7FB-B5D1-4CAF-A981-645CD06CF1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49DD7FB-B5D1-4CAF-A981-645CD06CF1E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

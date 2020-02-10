@@ -41,7 +41,7 @@ namespace Regex2
 			Console.WriteLine(Masks);
 			Console.WriteLine();
 
-			//Test dictorionary
+			//Test dictionary
 			foreach (var item in Masks)
 			{
 				Console.WriteLine($"{item.Key}: {item.Value}");
