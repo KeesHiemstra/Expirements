@@ -27,12 +27,9 @@ namespace Dictionary1
 				Console.WriteLine($"{item.Key, 6} {item.Value}");
 			}
 
-			Console.WriteLine();
+			Console.WriteLine($"\n21°C ({ Dict["°C"] })");
 
-			Console.WriteLine($"21°C ({ Dict["°C"] })");
-
-			Console.WriteLine();
-			Console.Write("Press any key...");
+			Console.Write("\nPress any key...");
 			Console.ReadKey();
 		}
 
