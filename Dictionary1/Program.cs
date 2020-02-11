@@ -8,11 +8,19 @@ namespace Dictionary1
 {
 	public class Program
 	{
-		public static readonly IDictionary<string, string> Dict = new Dictionary<string, string>();
+		public static readonly IDictionary<string, string> Dict = new Dictionary<string, string>()
+		{
+			{ "Bft", "Beaufort" },
+			{ "K", "Kelvin" },
+			//Degree Sign = Alt+0176
+			{ "°C", "degree Celsius" },
+			{ "°F", "degree Fahrenheit" },
+			{ "km/h", "kilometer per hour" },
+			{ "m/s", "meter per second" }
+		};
 
 		static void Main(string[] args)
 		{
-			Initilize();
 
 			foreach (var item in Dict)
 			{
@@ -28,17 +36,5 @@ namespace Dictionary1
 			Console.ReadKey();
 		}
 
-		#region Initialize Dict dictionary
-		public static void Initilize()
-		{
-			//Degree Sign = Alt+0176
-			Dict.Add("Bft", "Beaufort");
-			Dict.Add("K", "Kelvin");
-			Dict.Add("°C", "degree Celsius");
-			Dict.Add("°F", "degree Fahrenheit");
-			Dict.Add("km/h", "kilometer per hour");
-			Dict.Add("m/s", "meter per second");
-		}
-		#endregion
 	}
 }
